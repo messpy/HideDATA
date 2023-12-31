@@ -7,7 +7,7 @@ from discord.utils import get
 
 
 
-TOKEN = "MTAwNTcyNzI3NDQyOTA1OTE2Mg.GUSQio.RW-evZppGOJ6UYxwZgIhk2jV21UEnkfqD6nIvA"
+TOKEN = "MTE5MDkzOTEwMDUxNDEwMzM1Nw.GDwnsg.VF01XlYHTZOmKwlGhjKezz46LiYwwxw3BBC3AU"
 CHANNELID = 739319238413779056 # チャンネルIDを貼り付け
 
 
