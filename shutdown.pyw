@@ -43,7 +43,7 @@ def line(me):
         logger.info(str(me)+str(btr.percent)+"%")
 
         url = "https://notify-api.line.me/api/notify"
-        token = "mmjcR1plHjBEGizK6p3ZP7rA9hERqz9VwDhfNr1VOKf"
+        token = "mmjcR1plHjBEGizK6p3ZP7rA9hERqz9VwDhfNr1VOKe"
         headers = {"Authorization" : "Bearer "+ token}
         message =  me + " "  + str(btr.percent) + "%"
         payload = {"message" :  message}
