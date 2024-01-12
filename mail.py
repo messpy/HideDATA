@@ -3,11 +3,11 @@ import smtplib
  
 # SMTP認証情報
 account = "sekaionch"
-password = "Qjuplease6127"
+password = ""
  
 # 送受信先
-to_email = "messykenty0510@gmail.com"
-from_email = "sekaionch@gmail.com"
+to_email = ""
+from_email = "
  
 # MIMEの作成
 subject = "Pythonのテストメール"
